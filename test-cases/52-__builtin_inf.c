@@ -1,6 +1,6 @@
-#include <math.h>
-#include <float.h>
 #include <assert.h>
+#include <float.h>
+#include <math.h>
 
 int main() {
   volatile double inf = __builtin_inf();

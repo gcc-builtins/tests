@@ -1,6 +1,6 @@
 #include <assert.h>
-#include <stdbool.h>
 #include <limits.h>
+#include <stdbool.h>
 
 void test_char() {
   volatile char a = CHAR_MIN + 1;

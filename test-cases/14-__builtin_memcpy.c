@@ -1,5 +1,5 @@
-#include <string.h>
 #include <assert.h>
+#include <string.h>
 
 char* src = "hello world";
 char dest[100];

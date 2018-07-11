@@ -1,6 +1,6 @@
-#include <math.h>
-#include <float.h>
 #include <assert.h>
+#include <float.h>
+#include <math.h>
 
 void test_float() {
   volatile float val = 0;
