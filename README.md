@@ -5,4 +5,6 @@ Each test file tests a single builtin. A file name consists of the builtin's nam
 The test cases are written to be as simple as possible, without refactoring common functionality into macros or separate functions to make them easier reusable.
 Test cases typically use `assert()` to verify the correct output of the builtin.
 
+The suite is still under development. Many of the test cases are smoke tests and some of them are specific to x86-64.
+
 [![Build Status](https://travis-ci.org/gcc-builtins/tests.svg?branch=master)](https://travis-ci.org/gcc-builtins/tests)
