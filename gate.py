@@ -11,11 +11,11 @@ for cfile in glob.glob('test-cases/*.c'):
     subprocess.check_call(['./a.out'])
     with open(cfile) as f:
         original = f.read()
-    print('clang-format-3.6', 'style=Google', cfile)
-    changed = subprocess.check_output(['clang-format-3.6', '-style=Google', cfile]).decode()
+    print('clang-format', 'style=Google', cfile)
+    changed = subprocess.check_output(['clang-format', '-style=Google', cfile]).decode()
     if original != changed:
         error = True
         print(cfile + ' is not properly formatted!')
-        subprocess.check_output(['clang-format-3.6', '-style=Google', '-i', cfile])
+        subprocess.check_output(['clang-format', '-style=Google', '-i', cfile])
 if error:
     exit(-1)

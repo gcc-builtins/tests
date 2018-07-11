@@ -1,0 +1,6 @@
+language: python
+compiler: clang
+sudo: true
+python:
+  - "3.6"
+script: python3 gate.py
