@@ -9,4 +9,5 @@ int main() {
   assert(__builtin_popcount(value) == 16);
   value = 0x11101010;
   assert(__builtin_popcount(value) == 5);
+  return 0;
 }

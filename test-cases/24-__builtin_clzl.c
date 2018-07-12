@@ -7,4 +7,5 @@ int main() {
   assert(__builtin_clzl(value) == 3);
   value = (long)((unsigned long)-1 >> 5) - 4;
   assert(__builtin_clzl(value) == 5);
+  return 0;
 }

@@ -10,4 +10,5 @@ int main() {
   assert(__builtin_strcmp(str1, str3) < 0);
   assert(__builtin_strcmp(str3, str1) > 0);
   assert(__builtin_strcmp(str4, str1) < 0);
+  return 0;
 }

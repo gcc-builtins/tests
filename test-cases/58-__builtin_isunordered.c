@@ -36,4 +36,5 @@ void isunordered_double() {
 int main() {
   isunordered_float();
   isunordered_double();
+  return 0;
 }

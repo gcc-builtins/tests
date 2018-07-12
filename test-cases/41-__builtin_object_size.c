@@ -76,4 +76,5 @@ int main() {
   global_buffer();
   local_struct();
   side_effect();
+  return 0;
 }

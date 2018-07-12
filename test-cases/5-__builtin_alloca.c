@@ -10,4 +10,5 @@ int main() {
     sum += j;
   }
   assert(sum == 499500);
+  return 0;
 }

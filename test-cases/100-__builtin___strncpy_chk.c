@@ -8,4 +8,5 @@ int main() {
   strcpy(src, "hello test");
   __builtin___strncpy_chk(dest, src, sizeof(dest), sizeof(dest));
   assert(strcmp(src, dest) == 0);
+  return 0;
 }

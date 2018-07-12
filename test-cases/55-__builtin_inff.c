@@ -5,4 +5,5 @@
 int main() {
   volatile float inf = __builtin_inff();
   assert(isinff(inf) && inf >= FLT_MAX);
+  return 0;
 }

@@ -12,4 +12,5 @@ int main() {
   arr[10] = 'z';
   assert(__builtin_memcmp((char*)arr, hello, sizeof(arr)) > 0);
   assert(__builtin_memcmp(hello, (char*)arr, sizeof(arr)) < 0);
+  return 0;
 }

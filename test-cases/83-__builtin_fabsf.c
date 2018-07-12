@@ -10,4 +10,5 @@ int main() {
   assert(__builtin_fabsf(val) == 1.0);
   val = FLT_MAX;
   assert(__builtin_fabsf(val) == FLT_MAX);
+  return 0;
 }

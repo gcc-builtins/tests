@@ -5,4 +5,5 @@ int main() {
   assert(result == 2);
   result = __builtin_choose_expr(3 == 2, 2, 3);
   assert(result == 3);
+  return 0;
 }

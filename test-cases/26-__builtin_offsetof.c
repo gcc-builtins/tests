@@ -16,4 +16,5 @@ int main() {
   assert(__builtin_offsetof(struct test, a) < offsetof(struct test, b));
   assert(__builtin_offsetof(struct test, b) < offsetof(struct test, c));
   assert(__builtin_offsetof(struct test, c) < offsetof(struct test, d));
+  return 0;
 }

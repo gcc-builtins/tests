@@ -13,4 +13,5 @@ int main() {
   // volatile double nan4 = __builtin_nan("081"); TODO: should this work?
   // assert(isnan(nan4));
   // assert(nan2 != nan4);
+  return 0;
 }

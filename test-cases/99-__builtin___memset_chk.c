@@ -9,4 +9,5 @@ int main() {
   assert(strcmp(str,
                 "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                 "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa") == 0);
+  return 0;
 }

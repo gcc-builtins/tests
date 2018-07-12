@@ -10,4 +10,5 @@ int main() {
   assert(__builtin_fabsl(val) == 1.0);
   val = LDBL_MAX;
   assert(__builtin_fabsl(val) == LDBL_MAX);
+  return 0;
 }

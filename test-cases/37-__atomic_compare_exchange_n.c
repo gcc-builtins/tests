@@ -50,4 +50,5 @@ int main() {
   test_int();
   test_long();
   test_longlong();
+  return 0;
 }

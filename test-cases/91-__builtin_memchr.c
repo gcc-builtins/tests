@@ -10,4 +10,5 @@ int main() {
   assert(__builtin_memchr(str, needle, strlen(str)) == NULL);
   needle = 'l';
   assert(__builtin_memchr(str, needle, strlen(str)) == &str[2]);
+  return 0;
 }

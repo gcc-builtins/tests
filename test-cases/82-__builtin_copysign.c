@@ -63,4 +63,5 @@ void test_double() {
 int main() {
   test_float();
   test_double();
+  return 0;
 }

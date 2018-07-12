@@ -18,4 +18,5 @@ int main() {
   assert(!__builtin_types_compatible_p(unsigned, int));
   assert(!__builtin_types_compatible_p(char, int));
   assert(!__builtin_types_compatible_p(int, char));
+  return 0;
 }

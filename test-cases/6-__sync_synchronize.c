@@ -1,1 +1,4 @@
-int main() { __sync_synchronize(); }
+int main() {
+  __sync_synchronize();
+  return 0;
+}

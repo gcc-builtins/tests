@@ -51,4 +51,5 @@ int main() {
   test_float();
   test_double();
   test_longdouble();
+  return 0;
 }

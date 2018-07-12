@@ -12,4 +12,5 @@ int main() {
   assert(__builtin_bswap32(value) == 0x21436587);
   value = 0x00110011;
   assert(__builtin_bswap32(value) == 0x11001100);
+  return 0;
 }

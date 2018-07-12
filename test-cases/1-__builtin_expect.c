@@ -9,4 +9,5 @@ int main() {
   volatile long value = 10;
   assert(10 == __builtin_expect(value, 10));
   assert(10 == __builtin_expect(value, 11));
+  return 0;
 }

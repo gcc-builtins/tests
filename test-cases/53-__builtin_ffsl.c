@@ -15,4 +15,5 @@ int main() {
 
   value = 0x43211f0;
   assert(__builtin_ffsl(value) == 5);
+  return 0;
 }

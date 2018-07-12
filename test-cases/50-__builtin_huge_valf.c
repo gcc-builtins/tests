@@ -4,4 +4,5 @@
 int main() {
   volatile float hugeval = __builtin_huge_valf();
   assert(hugeval >= FLT_MAX);
+  return 0;
 }

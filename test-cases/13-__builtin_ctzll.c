@@ -12,4 +12,5 @@ int main() {
 
   value = 0x43211f0;
   assert(__builtin_ctzll(value) == 4);
+  return 0;
 }

@@ -12,4 +12,5 @@ int main() {
   assert(__builtin_bswap16(value) == (uint16_t)0x6587);
   value = 0x0011;
   assert(__builtin_bswap16(value) == (uint16_t)0x1100);
+  return 0;
 }

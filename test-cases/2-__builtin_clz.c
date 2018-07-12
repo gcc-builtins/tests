@@ -7,4 +7,5 @@ int main() {
   assert(__builtin_clz(value) == 3);
   value = (int)((unsigned int)-1 >> 5) - 4;
   assert(__builtin_clz(value) == 5);
+  return 0;
 }

@@ -10,4 +10,5 @@ int main() {
   assert(__builtin_fabs(val) == 1.0);
   val = DBL_MAX;
   assert(__builtin_fabs(val) == DBL_MAX);
+  return 0;
 }
