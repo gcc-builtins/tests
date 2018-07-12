@@ -55,12 +55,12 @@ void test_long() {
 }
 
 void test_longlong() {
-  volatile long long a = LONG_MIN + 1;
+  volatile long long a = LLONG_MIN + 1;
   volatile long long b = 1;
   volatile long long result;
   bool overflow = __builtin_sub_overflow(a, b, &result);
   assert(!overflow);
-  assert(result == LONG_MIN);
+  assert(result == LLONG_MIN);
   b = 2;
   overflow = __builtin_sub_overflow(a, b, &result);
   assert(overflow);
